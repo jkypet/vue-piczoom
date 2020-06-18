@@ -88,7 +88,6 @@
             })
 
             window.onresize = () => {
-                console.log(window.innerWidth)
                 this.$nextTick(()=>{
                     this.initTime()
                 })
